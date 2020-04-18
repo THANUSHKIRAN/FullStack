@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <script>
+            function clicked()
+            {
+                var x=document.getElementById('inputtext').value;
+                click(x);
+            }
+        </script>
+        <title>
+            URL SHORTENER
+
+        </title>
+        <body class='bodyclass'>
+            <div class='urlshort-name'>
+                URL SHORTENER
+            </div>
+            <div class='urlshort-input'>
+                <input type="text" id='inputtext' value='Enter your link' class="urlshort" >
+            </div>
+            <div class='urlshort-button'>
+                <button type='button' id='inputbutton' onclick="clicked(`input`)">SUBMIT</button>
+
+            </div>
+        </body>
+    </head>
+</html>

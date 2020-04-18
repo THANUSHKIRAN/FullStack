@@ -1,0 +1,34 @@
+.urlshort-name
+{
+    
+    font-size: larger;
+    text-align: center;
+    font-weight:bolder;
+    font-size: xx-large;
+}
+.urlshort-input
+{
+text-align: center;
+margin-top: 50px;
+margin-bottom: 10px;
+
+
+}
+#inputtext
+{
+    border-style: solid;
+    width: 100%;
+    height: 5%;
+}
+.urlshort-button
+{
+    text-align: center;
+   
+}
+
+#inputbutton
+{
+    border-style: solid
+}
+
+
